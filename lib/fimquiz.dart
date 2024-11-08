@@ -23,8 +23,15 @@ class _FimQuizState extends State<FimQuiz> {
   void imagefinal() {
     if (widget.pontos < 2) {
       imagem = "assets/0a2.png";
-    }else{
+    }
+    if (widget.pontos >= 3 && widget.pontos <= 5) {
       imagem = "assets/3a5.png";
+    }
+    if (widget.pontos >= 6 && widget.pontos <= 8) {
+      imagem = "assets/6a8.png";
+    }
+    if (widget.pontos >= 9) {
+      imagem = "assets/9a10.png";
     }
   }
 
@@ -36,17 +43,14 @@ class _FimQuizState extends State<FimQuiz> {
           'PONTUAÇÃO ${widget.pontos}/10',
           style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
-        titleTextStyle: const TextStyle(color: Color.fromARGB(248, 255, 255, 255)),
+        titleTextStyle:
+            const TextStyle(color: Color.fromARGB(248, 255, 255, 255)),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(244, 8, 219, 209),
       ),
       body: Center(
         child: Column(
           children: <Widget>[
-            Text(
-              'PONTUAÇÃO ${widget.pontos}',
-              style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-            ),
             Expanded(
               flex: 3,
               child: Image.asset(

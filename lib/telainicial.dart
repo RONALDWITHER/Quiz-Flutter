@@ -13,8 +13,8 @@ class Telainicial extends StatelessWidget {
           children: <Widget>[
             Expanded(
                 flex: 3,
-                child: Image.network(
-                  'https://img.freepik.com/fotos-premium/ai-gerou-ilustracao-de-humano-com-enorme-cerebro-gigante_441362-5569.jpg',
+                child: Image.asset(
+                  'assets/telainicialimagem.png',
                   fit: BoxFit.scaleDown,
                 )),
             const Text(
@@ -28,7 +28,7 @@ class Telainicial extends StatelessWidget {
               onPressed: () {
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => Quiztela()),
+                  MaterialPageRoute(builder: (context) => const Quiztela()),
                 );
               },
               child: const Text('JOGAR AGORA',
