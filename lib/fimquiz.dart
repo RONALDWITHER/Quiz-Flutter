@@ -21,7 +21,7 @@ class _FimQuizState extends State<FimQuiz> {
   }
 
   void imagefinal() {
-    if (widget.pontos < 2) {
+    if (widget.pontos <= 2) {
       imagem = "assets/0a2.png";
     }
     if (widget.pontos >= 3 && widget.pontos <= 5) {
