@@ -1,16 +1,7 @@
-# quiz
+# Quiz
 
-A new Flutter project.
+Este é meu Primeiro Projeto em Flutter
 
-## Getting Started
+Neste quiz simples, você poderá testar seus conhecimentos com perguntas de diferentes dificuldades: fácil, médio e difícil. Ao final, sua pontuação será exibida, variando de 0 a 10, para que você possa acompanhar seu desempenho.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Aqui está um [vídeo demonstração](https://youtube.com/shorts/YV09Q_urPFw?feature=share) de como o aplicativo funciona
