@@ -176,7 +176,7 @@ class _FacilQuiztelaState extends State<FacilQuiztela> {
                 ),
               ),
             ),
-            ...questoes[indicepergunta]['opcoes'].map<Widget>((opcao) {
+            ...questoes[indicepergunta]['opcoes'].map<Widget>((opcao) { 
               return ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color.fromARGB(244, 3, 156, 149),
@@ -192,6 +192,9 @@ class _FacilQuiztelaState extends State<FacilQuiztela> {
                 ),
               );
             }).toList(),
+              //A função 'map' percorre cada item de uma lista e transforma esses itens em novos objetos. 
+              //Usei ela pra converter todas as opções em 'ElevatedButton'
+              //O 'toList()' é usado no pra transformar o resultado em uma lista de widgets.
           ],
         ),
       ),
