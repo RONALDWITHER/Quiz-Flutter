@@ -22,16 +22,16 @@ class _FimQuizState extends State<FimQuiz> {
 
   void imagefinal() {
     if (widget.pontos <= 2) {
-      imagem = "assets/0a2.png";
+      imagem = "assets/0-2.gif";
     }
     if (widget.pontos >= 3 && widget.pontos <= 5) {
-      imagem = "assets/3a5.png";
+      imagem = "assets/3-5.gif";
     }
     if (widget.pontos >= 6 && widget.pontos <= 8) {
-      imagem = "assets/6a8.png";
+      imagem = "assets/6-8.gif";
     }
     if (widget.pontos >= 9) {
-      imagem = "assets/9a10.png";
+      imagem = "assets/9-10.gif";
     }
   }
 
@@ -41,12 +41,12 @@ class _FimQuizState extends State<FimQuiz> {
       appBar: AppBar(
         title: Text(
           'PONTUAÇÃO ${widget.pontos}/10',
-          style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          style: const TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
         ),
         titleTextStyle:
             const TextStyle(color: Color.fromARGB(248, 255, 255, 255)),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(244, 8, 219, 209),
+        backgroundColor: const Color.fromARGB(244, 3, 156, 149),
       ),
       body: Center(
         child: Column(
@@ -55,16 +55,23 @@ class _FimQuizState extends State<FimQuiz> {
               flex: 3,
               child: Image.asset(
                 imagem,
-                fit: BoxFit.scaleDown,
+                fit: BoxFit.cover,
               ),
             ),
+            const SizedBox(height: 10),
             const Text(
               'FIM DO QUIZ',
-              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Color.fromARGB(251, 236, 236, 236)),
+            ),
+            const SizedBox(
+              height: 50,
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.lightBlue,
+                backgroundColor: const Color.fromARGB(244, 3, 156, 149),
               ),
               onPressed: () {
                 Navigator.pushReplacement(
@@ -73,21 +80,30 @@ class _FimQuizState extends State<FimQuiz> {
                 );
               },
               child: const Text('REINICIAR QUIZ',
-                  style: TextStyle(color: Color.fromARGB(251, 236, 236, 236))),
+                  style: TextStyle(
+                      color: Color.fromARGB(251, 236, 236, 236), fontSize: 25)),
+            ),
+            const SizedBox(
+              height: 15,
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.lightBlue,
+                backgroundColor: const Color.fromARGB(244, 3, 156, 149),
               ),
               onPressed: () {
                 SystemNavigator.pop();
               },
               child: const Text('SAIR DO APP',
-                  style: TextStyle(color: Color.fromARGB(251, 236, 236, 236))),
+                  style: TextStyle(
+                      color: Color.fromARGB(251, 236, 236, 236), fontSize: 25)),
+            ),
+            const SizedBox(
+              height: 100,
             ),
           ],
         ),
       ),
+      backgroundColor: Color(1),
     );
   }
 }

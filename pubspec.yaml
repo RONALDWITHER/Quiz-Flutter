@@ -58,21 +58,41 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-   - assets/telainicialimagem.png
-   - assets/questao1.png
-   - assets/questao2.png
-   - assets/questao3.png
-   - assets/questao4.png
-   - assets/questao5.png
-   - assets/questao6.png
-   - assets/questao7.png
-   - assets/questao8.png
-   - assets/questao9.png
-   - assets/questao10.png
-   - assets/0a2.png
-   - assets/3a5.png
-   - assets/6a8.png
-   - assets/9a10.png
+   - assets/faceis/1.gif
+   - assets/faceis/2.gif
+   - assets/faceis/3.gif
+   - assets/faceis/4.gif
+   - assets/faceis/5.gif
+   - assets/faceis/6.gif
+   - assets/faceis/7.gif
+   - assets/faceis/8.gif
+   - assets/faceis/9.gif
+   - assets/faceis/10.gif
+   - assets/medias/1.gif
+   - assets/medias/2.gif
+   - assets/medias/3.gif
+   - assets/medias/4.gif
+   - assets/medias/5.gif
+   - assets/medias/6.gif
+   - assets/medias/7.gif
+   - assets/medias/8.gif
+   - assets/medias/9.gif
+   - assets/medias/10.gif
+   - assets/dificies/1.gif
+   - assets/dificies/2.gif
+   - assets/dificies/3.gif
+   - assets/dificies/4.gif
+   - assets/dificies/5.gif
+   - assets/dificies/6.gif
+   - assets/dificies/7.gif
+   - assets/dificies/8.gif
+   - assets/dificies/9.gif
+   - assets/dificies/10.gif
+   - assets/0-2.gif
+   - assets/3-5.gif
+   - assets/6-8.gif
+   - assets/9-10.gif
+   - assets/imageinicial.gif
 
   # To add assets to your application, add an assets section, like this:
   # assets:
