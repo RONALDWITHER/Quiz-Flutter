@@ -26,14 +26,14 @@ class _MedioQuiztelaState extends State<MedioQuiztela> {
     },
     {
       'questão':
-          'Em que país ocorreu a Revolução Meiji, que modernizou a economia e política no século XIX?',
+          'Em que país ocorreu a Revolução Meiji?',
       'Image': 'assets/medias/3.gif',
       'opcoes': ['China', 'Coreia do Sul', 'Japão', 'Tailândia'],
       'Resposta Correta': 'Japão',
     },
     {
       'questão':
-          'Qual filósofo escreveu "Ser e Tempo", uma obra fundamental do existencialismo?',
+          'Qual filósofo escreveu "Ser e Tempo"?',
       'Image': 'assets/medias/4.gif',
       'opcoes': [
         'Jean-Paul Sartre',
@@ -45,7 +45,7 @@ class _MedioQuiztelaState extends State<MedioQuiztela> {
     },
     {
       'questão':
-          'Qual é a partícula responsável pela força forte que mantém os núcleos atômicos unidos?',
+          'Qual é a partícula responsável pela força forte que mantém os núcleos?',
       'Image': 'assets/medias/5.gif',
       'opcoes': ['Fóton', 'Bóson de Higgs', 'Glúon', 'Neutrino'],
       'Resposta Correta': 'Glúon',
