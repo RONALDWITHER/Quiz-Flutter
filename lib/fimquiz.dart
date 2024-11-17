@@ -79,7 +79,7 @@ class _FimQuizState extends State<FimQuiz> {
                   MaterialPageRoute(builder: (context) => const Telainicial()),
                 );
               },
-              child: const Text('REINICIAR QUIZ',
+              child: const Text('MENU PRINCIPAL',
                   style: TextStyle(
                       color: Color.fromARGB(251, 236, 236, 236), fontSize: 25)),
             ),
